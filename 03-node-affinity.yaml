@@ -13,11 +13,11 @@ spec:
             operator: In
             values:
             - us-east-1d
-      #     # - key: disktype
-      #     #   operator: In
-      #     #   values:
-      #     #   - ssd
-      # # soft rule
+          - key: disktype
+            operator: In
+            values:
+            - ssd
+      # soft rule
       # preferredDuringSchedulingIgnoredDuringExecution:
       # - weight: 100
       #   preference:
